@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public class alignerph {
+
+	public static void main(String[] args) {
+	Scanner input =  new Scanner (System.in);
+	String a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v;
+	String name,add,contact;
+	a = "() Camera Bar";
+	b = "() Camera Post";
+	c = "() 4 target Disk";
+	d = "() 4 Clamp Holder";
+	e = "() 4 Clamp Holder";
+	f = "() 2 Turn Table";
+	g = "() Cabinet";
+	h = "() Computer (CPU)";
+	i = "() Monitor";
+	j = "() Mouse";
+	k = "() Keyboard";
+	l = "() 1 Microdog";
+	m = "() 1 Printer";
+	n = "() 4 Power Cord";
+	o = "() Camera Bar Holder";
+	p = "() Camera Post Holder";
+	q = "() Bolts and Nuts";
+	r = "() VGA Cable";
+	s = "() UPS";
+	t = "() Pedal Lock";
+	u = "() Steering Lock";
+	v = "() Ground Rod";
+	System.out.print("Customer: ");
+	name = input.nextLine();
+	System.out.print("Address: ");
+	add = input.nextLine();
+	System.out.print("Contact #: ");
+	contact = input.nextLine();
+	System.out.println("-------------------------------------------------------");
+	System.out.print(String.format("%-30s %-25s\n",a,b));
+	System.out.print(String.format("%-30s %-25s\n",c,d));
+	System.out.print(String.format("%-30s %-25s\n",e,f));
+	System.out.print(String.format("%-30s %-25s\n",g,h));
+	System.out.print(String.format("%-30s %-25s\n",i,j));
+	System.out.print(String.format("%-30s %-25s\n",k,l));
+	System.out.print(String.format("%-30s %-25s\n",m,n));
+	System.out.print(String.format("%-30s %-25s\n",o,p));
+	System.out.print(String.format("%-30s %-25s\n",q,r));
+	System.out.print(String.format("%-30s %-25s\n",s,t));
+	System.out.print(String.format("%-30s %-25s\n",u,v));
+	
+	System.out.println("-------------------------------------------------------");
+	
+	
+
+	}
+
+}
