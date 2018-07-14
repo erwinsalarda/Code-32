@@ -1,0 +1,6 @@
+.brand {
+    display: flex;
+}
+.model {
+    flex: 1;
+}
